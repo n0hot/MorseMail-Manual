@@ -12,7 +12,15 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      //...
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      homepage: "intro.md",
+      name: "Morse Manual",
+      repo: "n0hot/MorseMail-Manual",
+      search: { depth: 6 },
+      alias: {
+          "/.*/_sidebar.md": "/_sidebar.md"
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
